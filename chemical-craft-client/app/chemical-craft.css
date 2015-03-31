@@ -1,0 +1,146 @@
+	html {
+		background-color: #393939;
+		color: #fff;
+	}
+	
+	body {
+		margin: 0;
+		background-color: transparent;
+		color: #ccc;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 14px;
+		/* line-height: 105%; */
+	}
+
+
+	.title{
+		margin:10px;
+		height:70px;
+		font-size:50px;
+		text-align:center;
+		font-family:MINECRAFT PE;
+	}
+	
+	td{
+		margin:0;
+		padding:0;
+	}
+
+	/* .lvl-over {
+		border: 2px dashed black !important;
+	} */
+	 
+	.lvl-target {
+		background-color: #ddd; 
+		opacity: .5;
+	}
+	 
+	[draggable] {
+		cursor: move;
+	}
+	
+	.craft-zone	{
+		margin:15px;
+		height:132px;
+		width:115px;
+		background-image:url("chemical-craft.png");
+	}
+	
+	#crafting{
+		padding-top:22px;
+		height:132px;
+		width:115px;
+		position:relative;
+	}
+	
+	#crafting td{
+		margin:0;
+		padding:0;
+		height:30px;
+		width:30px;
+	}
+		
+	.chemical-element-icon{
+		margin:0;
+		padding:0;
+		height: 30px; 
+		width:30px;
+		color:#000;
+		font-size:1em;
+		text-align: center;
+		vertical-align: middle;
+	}
+	
+	  
+	.chemical-element{
+		cursor: pointer;
+		height: 50px; 
+		width:50px;
+		margin:0.5px;
+		color:#000;
+	}
+	
+	.code{
+		vertical-align: text-bottom;
+		font-size: 1.5em;
+		text-align: center;
+	}
+	
+	.name{
+		vertical-align: text-bottom;
+		font-size: 0.5em;
+		text-align: center;
+	}
+	
+	.atomic-number{
+		vertical-align: text-top;
+		text-align:left;
+	}
+	
+	.alkali-metal{
+		background-color: rgb(102,82,114);
+		border: 2px inset gray;
+	}
+	
+	.alkaline-metal{
+		background-color: rgb(106,104,134);
+		border: 2px inset gray;
+	}
+	
+	.non-metal{
+		background-color: rgb(156,154,62);
+		border: 2px inset gray;
+	}
+	
+	.basic-metal{
+		background-color: rgb(76,128,139);
+		border: 2px inset gray;
+	}
+	
+	.transition-metal{
+		background-color: rgb(76,122,164);
+		border: 2px inset gray;
+	}
+	
+	.semi-metal{
+		background-color: rgb(81,129,90);
+		border: 2px inset gray;
+	}
+	
+	.halogen{
+		background-color: rgb(167,113,58);
+		border: 2px inset gray;
+	}
+	
+	.noble-gas{
+		background-color: rgb(148,45,43);
+		border: 2px inset gray;
+	}
+	
+	.lanthanide{
+		background-color: rgb(174,66,87);
+	}
+	
+	.actinide{
+		background-color: rgb(164,105,124);
+	}

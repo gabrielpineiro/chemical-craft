@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+  <meta charset="utf-8">
+  <title>Chemical-Craft</title>
+  <link rel="stylesheet" href="chemical-craft.css" type="text/css"/> 
+ </head>
+
+<body ng-app="chemicalCraftApp">
+	<div class="title">
+		<span>CHEMICAL-CRAFT</span>
+	</div>
+	<div ng-controller="chemicalController">
+		<center>	
+			<div id="crafting-zone" class="craft-zone" x-lvl-drop-target x-on-drop="dropped(dragEl, dropEl)" >
+				<table id="crafting">
+					<body>
+						<tr ng-repeat="i in [1,2,3]" >
+							<td ng-repeat="j in [1,2,3]" id="td{{i}}-{{j}}"></td>
+						</tr>
+					</body>
+				</table>
+			</div>
+		</center>
+		<center>
+			<table>
+				<body>
+					<tr ng-repeat="p in periods" >
+						<td ng-repeat="g in groups">
+							<chemical-element>
+							</chemical-element>
+						</td>
+					</tr>
+				</body>
+			</table>	
+		</center>
+	</div>
+	
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.4/angular.min.js"></script>
+	<!--<script src="chemical.min.js"></script>-->
+	<script src="app.js"></script>
+	<script src="chemical-controller.js"></script>
+	<script src="chemical-service.js"></script>
+</body>
+
+</html>
